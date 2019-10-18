@@ -11,7 +11,7 @@ const App: React.FC = () => {
       {/* add background image with css blur */}
       <CssBaseline />
       <Grid container className="app" justify="center" alignItems="center">
-        <Grid item container spacing={3} xs={6} className="white-box">
+        <Grid item container spacing={3} sm={6} xs={10} className="white-box">
           <Grid item xs={12}>
             <Typography variant="h4" align="center">
               {/* add logo */}
@@ -19,6 +19,7 @@ const App: React.FC = () => {
             </Typography>
           </Grid>
           <Grid item xs={12}>
+            {/* <img src="/images/clbd_logo.png" alt="clbd-logo" /> */}
             <div className="image"></div>
           </Grid>
           <Grid item xs={12}>
