@@ -4,6 +4,7 @@ import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import { theme } from './theme';
 
 import './styles/app.css'
+import logo from './images/clbd_logo.png'
 
 const App: React.FC = () => {
   return (
@@ -19,8 +20,8 @@ const App: React.FC = () => {
             </Typography>
           </Grid>
           <Grid item xs={12}>
-            {/* <img src="/images/clbd_logo.png" alt="clbd-logo" /> */}
-            <div className="image"></div>
+            <img src={logo} alt="clbd-logo" />
+            {/* <div className="image"></div> */}
           </Grid>
           <Grid item xs={12}>
             <Typography variant="h5" align="center">
