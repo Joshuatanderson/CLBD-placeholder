@@ -20,7 +20,7 @@ const App: React.FC = () => {
             </Typography>
           </Grid>
           <Grid className="grid-item-centers" item xs={10}>
-            <img src={logo} alt="clbd-logo" />
+            <img className="logo" src={logo} alt="clbd-logo" />
           </Grid>
           <Grid item xs={12}>
             <Typography variant="h5" align="center">
