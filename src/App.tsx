@@ -3,7 +3,7 @@ import { Typography, CssBaseline, Grid } from '@material-ui/core'
 import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import { theme } from './theme';
 
-import './app.css'
+import './styles/app.css'
 
 const App: React.FC = () => {
   return (
