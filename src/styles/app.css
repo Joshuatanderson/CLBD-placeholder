@@ -11,9 +11,11 @@
 }
 
 .image {
-	background-image: url('../images/clbd_logo.png');
-	width           : 100%;
-	min-height: 150px;
-	background-size : cover;
-	background-position: center;
+	width                 : 100%;
+	object-fit            : cover;
+}
+
+.imageCont{
+	display: flex;
+	justify-content: center;
 }

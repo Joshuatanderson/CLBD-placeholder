@@ -19,13 +19,11 @@ const App: React.FC = () => {
               CLBD's new website is under construction.
             </Typography>
           </Grid>
-          <Grid item xs={12}>
-            <img src={logo} alt="clbd-logo" />
-            {/* <div className="image"></div> */}
+          <Grid className="imageCont" item xs={12}>
+              <img src={logo} alt="clbd-logo" />
           </Grid>
           <Grid item xs={12}>
             <Typography variant="h5" align="center">
-              {/* add logo */}
               Please pardon our dust.
             </Typography>
           </Grid>
